@@ -1,0 +1,28 @@
+{
+  "name": "code-invest",
+  "version": "1.0.0",
+  "description": "The project in question is dedicated to create an investment platform.",
+  "main": "./",
+  "devDependencies": {},
+  "scripts": {
+    "commit": "npx git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M4ciel/code-invest.git"
+  },
+  "author": "Caio Maciel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/M4ciel/code-invest/issues"
+  },
+  "homepage": "https://github.com/M4ciel/code-invest#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-emoji-conventional"
+    }
+  },
+  "dependencies": {
+    "cz-emoji-conventional": "^1.0.2"
+  }
+}
